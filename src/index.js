@@ -2,12 +2,12 @@ import debug from 'debug'
 
 /**
  * @typedef {Object} Debuggers
- * @property {Function(logInfo)} debug - Method for pipe the debug to console.debug.
- * @property {Function(logInfo)} warn - Method for pipe the debug to console.warn.
- * @property {Function(logInfo)} trace - Method for pipe the debug to console.trace.
- * @property {Function(logInfo)} info - Method for pipe the debug to console.info.
- * @property {Function(logInfo)} log - Method for pipe the debug to console.log.
- * @property {Function(logInfo)} error - Method for pipe the debug to console.error.
+ * @property {Function} debug - Method for pipe the debug to console.debug.
+ * @property {Function} warn - Method for pipe the debug to console.warn.
+ * @property {Function} trace - Method for pipe the debug to console.trace.
+ * @property {Function} info - Method for pipe the debug to console.info.
+ * @property {Function} log - Method for pipe the debug to console.log.
+ * @property {Function} error - Method for pipe the debug to console.error.
  */
 
 /**
