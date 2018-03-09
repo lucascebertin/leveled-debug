@@ -1,5 +1,5 @@
-# sample.nodejs.app
-Startup application for nodejs apps, use it to start to build your applications based on it but feel free to change what you want to.
+# Leveled-Debug
+This lib makes even easier to use the npm Debug adding some severity levels.
 
 ## Getting started
 First, you should be using yarn, if you don't, start installing by
