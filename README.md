@@ -1,6 +1,17 @@
 # Leveled-Debug
 This lib makes even easier to use the npm Debug adding some severity levels.
 
+## How to use it
+```js
+const { createConsoleDebugger } = require('leveled-debug')
+const debuggers = createConsoleDebugger('test')
+debuggers.log('test')
+
+/*
+console outs: test:log test +0ms
+*/
+```
+
 ## Getting started
 First, you should be using yarn, if you don't, start installing by
 ```npm install -g yarn```
