@@ -5,6 +5,7 @@ This lib makes even easier to use the npm Debug adding some severity levels.
 [![NPM Downloads][downloads-image]][downloads-url]
 [![Linux Build][travis-image]][travis-url]
 [![Test Coverage][coveralls-image]][coveralls-url]
+[![Known Vulnerabilities][snyk-image]][snyk-url]
 
 ## How to use it
 ```js
@@ -47,10 +48,9 @@ Jest is already configured to respect some rules and generate coverage, run ```y
 * [Eslint](https://eslint.org/)
 * [Jest](https://facebook.github.io/jest/)
 
-
-
 [npm-image]: https://img.shields.io/npm/v/leveled-debug.svg
 [npm-url]: https://npmjs.org/package/leveled-debug
+
 [downloads-image]: https://img.shields.io/npm/dm/leveled-debug.svg
 [downloads-url]: https://npmjs.org/package/leveled-debug
 
@@ -59,3 +59,6 @@ Jest is already configured to respect some rules and generate coverage, run ```y
 
 [coveralls-image]: https://img.shields.io/coveralls/lucascebertin/leveled-debug/master.svg
 [coveralls-url]: https://coveralls.io/r/lucascebertin/leveled-debug?branch=master
+
+[snyk-image]:https://snyk.io/test/github/lucascebertin/leveled-debug/badge.svg?targetFile=package.json
+[snyk-url]:https://snyk.io/test/github/lucascebertin/leveled-debug?targetFile=package.json
