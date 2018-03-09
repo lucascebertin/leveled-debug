@@ -3,6 +3,7 @@ This lib makes even easier to use the npm Debug adding some severity levels.
 
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
+[![Coverage Status](https://coveralls.io/repos/github/lucascebertin/leveled-debug/badge.svg?branch=master)](https://coveralls.io/github/lucascebertin/leveled-debug?branch=master)
 
 
 ## How to use it
