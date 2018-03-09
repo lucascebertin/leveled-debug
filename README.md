@@ -1,6 +1,10 @@
 # Leveled-Debug
 This lib makes even easier to use the npm Debug adding some severity levels.
 
+[![NPM Version][npm-image]][npm-url]
+[![NPM Downloads][downloads-image]][downloads-url]
+
+
 ## How to use it
 ```js
 const { createConsoleDebugger } = require('leveled-debug')
@@ -41,3 +45,24 @@ Jest is already configured to respect some rules and generate coverage, run ```y
   * [Template literals](https://www.npmjs.com/package/babel-plugin-transform-es2015-template-literals)
 * [Eslint](https://eslint.org/)
 * [Jest](https://facebook.github.io/jest/)
+
+
+
+[npm-image]: https://img.shields.io/npm/v/leveled-debug.svg
+[npm-url]: https://npmjs.org/package/leveled-debug
+[downloads-image]: https://img.shields.io/npm/dm/leveled-debug.svg
+[downloads-url]: https://npmjs.org/package/leveled-debug
+
+[travis-image]: https://img.shields.io/travis/expressjs/express/master.svg?label=linux
+[travis-url]: https://travis-ci.org/expressjs/express
+
+[appveyor-image]: https://img.shields.io/appveyor/ci/dougwilson/express/master.svg?label=windows
+[appveyor-url]: https://ci.appveyor.com/project/dougwilson/express
+
+[coveralls-image]: https://img.shields.io/coveralls/expressjs/express/master.svg
+[coveralls-url]: https://coveralls.io/r/expressjs/express?branch=master
+
+[gratipay-image-visionmedia]: https://img.shields.io/gratipay/visionmedia.svg
+[gratipay-url-visionmedia]: https://gratipay.com/visionmedia/
+[gratipay-image-dougwilson]: https://img.shields.io/gratipay/dougwilson.svg
+[gratipay-url-dougwilson]: https://gratipay.com/dougwilson/
