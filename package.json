@@ -40,6 +40,6 @@
     "build:dev": "yarn clean && yarn lint && babel src -d dist --ignore **/*.spec.js --source-maps inline",
     "test": "cross-env DEBUG=lib:* jest --config jest.config.js --forceExit",
     "start": "yarn build && cross-env DEBUG=* node ./dist/index.js",
-    "report:coverage": ""
+    "publish:patch": "npm version patch && git push && npm publish"
   }
 }

@@ -22,9 +22,7 @@ console outs: test:log test +0ms
 First, you should be using yarn, if you don't, start installing by
 ```npm install -g yarn```
 
-Now, run ```yarn``` to restore the dependencies.
-
-If you are the kind of person who like to restart the app on each file save, run ```yarn watch``` and start to code, otherwise ```yarn build```.
+Now, run ```yarn``` to restore the dependencies and then ```yarn build```.
 
 ## Debugging
 For ease debug and inspection, use ```yarn build:dev```, this way, source mapping will be generated inline on your transpiled files.
@@ -35,7 +33,7 @@ Jest is already configured to respect some rules and generate coverage, run ```y
 
 ## Built with
 * [VSCode](https://code.visualstudio.com/)
-* [Yarn](https://yarnpkg.com/pt-BR/)
+* [Yarn](https://yarnpkg.com/en/)
 * [Babel](https://babeljs.io/)
   * [Exponential operator](https://www.npmjs.com/package/babel-plugin-transform-exponentiation-operator)
   * [Async to bluebird](https://www.npmjs.com/package/babel-plugin-transform-async-to-bluebird)
